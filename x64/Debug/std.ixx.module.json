@@ -5,9 +5,9 @@
         {
             "primary-output": "x64\\Debug\\std.ixx.obj",
             "outputs": [
-                "C:\\Diser\\Б\\Прога\\Отбор_2026\\ConsoleApplication1\\x64\\Debug\\vc143.pdb",
+                "C:\\Diser\\Б\\Прога\\Отбор_2026\\ConsoleApplication1\\cppMipt\\x64\\Debug\\vc143.pdb",
                 "x64\\Debug\\",
-                "C:\\Diser\\Б\\Прога\\Отбор_2026\\ConsoleApplication1\\x64\\Debug\\std.ixx.ifc"
+                "C:\\Diser\\Б\\Прога\\Отбор_2026\\ConsoleApplication1\\cppMipt\\x64\\Debug\\std.ixx.ifc"
             ],
             "provides": [
                 {

@@ -6,7 +6,25 @@
   However, note that these features are provided as-is without support, and subject
   to changes or removal as the working draft evolves. See
   https://go.microsoft.com/fwlink/?linkid=2045807 for details.
-  cl /c /reference "std=C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\x64\Debug\std.ixx.ifc" /reference "std.compat=C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\x64\Debug\std.compat.ixx.ifc" /ZI /JMC /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt GameMode.cpp
-  GameMode.cpp
-C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\GameMode.cpp(16,14): error C2027: use of undefined type 'Player'
-C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\GameMode.h(4,8): message : see declaration of 'Player'
+  cl /c /reference "std=C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\x64\Debug\std.ixx.ifc" /reference "std.compat=C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\x64\Debug\std.compat.ixx.ifc" /ZI /JMC /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ConsoleApplication1.cpp Word.cpp
+  ConsoleApplication1.cpp
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): error C2665: 'std::weak_ptr<Word>::weak_ptr': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\memory(3036,5): message : could be 'std::weak_ptr<Word>::weak_ptr(std::weak_ptr<Word> &&) noexcept'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): message : 'std::weak_ptr<Word>::weak_ptr(std::weak_ptr<Word> &&) noexcept': cannot convert argument 1 from 'Word *' to 'std::weak_ptr<Word> &&'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,20): message : Reason: cannot convert from 'Word *' to 'std::weak_ptr<Word>'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,20): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\memory(3012,5): message : or       'std::weak_ptr<Word>::weak_ptr(const std::weak_ptr<Word> &) noexcept'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): message : 'std::weak_ptr<Word>::weak_ptr(const std::weak_ptr<Word> &) noexcept': cannot convert argument 1 from 'Word *' to 'const std::weak_ptr<Word> &'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,20): message : Reason: cannot convert from 'Word *' to 'const std::weak_ptr<Word>'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,20): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\memory(3010,5): message : or       'std::weak_ptr<Word>::weak_ptr(void) noexcept'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): message : 'std::weak_ptr<Word>::weak_ptr': function does not take 1 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\memory(3041,5): message : or       'std::weak_ptr<Word>::weak_ptr(std::weak_ptr<_Ty2> &&) noexcept'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): message : 'std::weak_ptr<Word>::weak_ptr(std::weak_ptr<_Ty2> &&) noexcept': could not deduce template argument for 'std::weak_ptr<_Ty2> &&' from 'Word *'
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\memory(3022,5): message : or       'std::weak_ptr<Word>::weak_ptr(const std::weak_ptr<_Ty2> &) noexcept'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): message : 'std::weak_ptr<Word>::weak_ptr(const std::weak_ptr<_Ty2> &) noexcept': could not deduce template argument for 'const std::weak_ptr<_Ty2> &' from 'Word *'
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\memory(3017,5): message : or       'std::weak_ptr<Word>::weak_ptr(const std::shared_ptr<_Ty2> &) noexcept'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): message : 'std::weak_ptr<Word>::weak_ptr(const std::shared_ptr<_Ty2> &) noexcept': could not deduce template argument for 'const std::shared_ptr<_Ty2> &' from 'Word *'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\cppMipt\ConsoleApplication1.cpp(42,19): message : while trying to match the argument list '(Word *)'
+  Word.cpp
+  Generating Code...

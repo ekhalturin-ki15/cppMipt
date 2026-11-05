@@ -1,0 +1,12 @@
+﻿  Scanning sources for module dependencies...
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32534 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  /std:c++latest is provided as a preview of language features from the latest C++
+  working draft, and we're eager to hear about bugs and suggestions for improvements.
+  However, note that these features are provided as-is without support, and subject
+  to changes or removal as the working draft evolves. See
+  https://go.microsoft.com/fwlink/?linkid=2045807 for details.
+  cl /c /reference "std=C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\x64\Debug\std.ixx.ifc" /reference "std.compat=C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\x64\Debug\std.compat.ixx.ifc" /ZI /JMC /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt GameMode.cpp
+  GameMode.cpp
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\GameMode.cpp(16,14): error C2027: use of undefined type 'Player'
+C:\Diser\Б\Прога\Отбор_2026\ConsoleApplication1\GameMode.h(4,8): message : see declaration of 'Player'
